@@ -18,4 +18,12 @@ fn main {
   c = c + 1
   println("c after: \{c}")
 
+  let dec : Int = 100000
+  println(dec)
+
+  let hex : Int = 0xFFFF
+  println("hex: \{hex}")
+
+  let oct = 0o777
+  println("oct: \{oct}")
 }
